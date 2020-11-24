@@ -1,0 +1,26 @@
+.toolbar-navbar-fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: $app-sidebar-width;
+	height: $app-toolbar-height;
+	background: $primary-color;
+	z-index: 502;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 24px;
+	.btn-discard {
+		background: none;
+		color: $white;
+	}
+	.btn-save {
+		color: $primary-color;
+	}
+	button{
+		min-width: 130px;
+	}
+	button + button {
+		margin-left: 15px;
+	}
+}

@@ -1,0 +1,29 @@
+.ant-form {
+    .ant-form-item {
+        margin-bottom: 15px;
+    }
+}
+
+.form-error {
+    line-height: 1.5;
+    font-size: 14px;
+    color: $danger;
+}
+
+
+.ant-input {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-selected:hover {
+    font-weight: 500;
+}
+
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+    box-shadow: none;
+}

@@ -1,0 +1,192 @@
+@primary-color: #5B86E5;
+@text-color: #252627;
+@border-color-base: #E2E2E2;
+@link-color: #5B86E5;
+@success-color: #35B26F;
+@warning-color: #F2CE54;
+@error-color: #F2545D;
+@font-size-base: 14px;
+@font-family: "Inter" , -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+@code-family: "Inter" , 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+// Buttons
+@btn-font-weight: 600;
+@btn-border-radius-base: 4px;
+@btn-border-radius-sm: 4px;
+@btn-border-width: 1px;
+@btn-border-style: solid;
+@btn-shadow: none;
+@btn-primary-shadow: none;
+@btn-text-shadow: none;
+
+@btn-default-color: @text-color;
+@btn-default-bg: #ffffff;
+@btn-default-border: @border-color-base;
+@btn-default-hover-color : @text-color;
+@btn-default-hover-bg : #ffffff;
+@btn-default-hover-border : #4F4F4F;
+@btn-default-active-color : @primary-color;
+@btn-default-active-bg : #ffffff;
+@btn-default-active-border : @primary-color;
+@btn-default-focus-color : @text-color;
+@btn-default-focus-bg :#ffffff;
+@btn-default-focus-border : @primary-color;
+@btn-default-disabled-color : #CECECE;
+@btn-default-disabled-bg : #ffffff;
+@btn-default-disabled-border : #E2E2E2;
+@btn-default-pending-color : #CECECE;
+@btn-default-pending-bg : #ffffff;
+@btn-default-pending-border : #E2E2E2;
+
+@btn-primary-color: #ffffff;
+@btn-primary-bg: @primary-color;
+@btn-primary-border: @primary-color;
+@btn-primary-hover-color : #ffffff;
+@btn-primary-hover-bg : #3D6ACC;
+@btn-primary-hover-border : #3D6ACC;
+@btn-primary-active-color :#ffffff;
+@btn-primary-active-bg : #3D5A99;
+@btn-primary-active-border : #3D5A99;
+@btn-primary-focus-color :#ffffff;
+@btn-primary-focus-bg :#5B86E5;
+@btn-primary-focus-border :#3D5A99;
+@btn-primary-disabled-color : #ffffff;
+@btn-primary-disabled-bg : #CCDCFF;
+@btn-primary-disabled-border : #CCDCFF;
+@btn-primary-pending-color : #ffffff;
+@btn-primary-pending-bg : #CCDCFF;
+@btn-primary-pending-border : #CCDCFF;
+
+@btn-danger-color: #ffffff;
+@btn-danger-bg: @error-color;
+@btn-danger-border: @error-color;
+@btn-danger-hover-color : #ffffff;
+@btn-danger-hover-bg : #CC474E;
+@btn-danger-hover-border : #CC474E;
+@btn-danger-active-color :#ffffff;
+@btn-danger-active-bg : #B32D34;
+@btn-danger-active-border : #B32D34;
+@btn-danger-focus-color :#ffffff;
+@btn-danger-focus-bg :#F2545D;
+@btn-danger-focus-border :#5B86E5;
+@btn-danger-disabled-color : #ffffff;
+@btn-danger-disabled-bg : #FF999F;
+@btn-danger-disabled-border : #FF999F;
+@btn-danger-pending-color : #ffffff;
+@btn-danger-pending-bg : #FF999F;
+@btn-danger-pending-border : #FF999F;
+
+@btn-outline-danger-color: @error-color;
+@btn-outline-danger-bg: #ffffff;
+@btn-outline-danger-border: @error-color;
+@btn-outline-danger-hover-color : @error-color;
+@btn-outline-danger-hover-bg : #FFE5E6;
+@btn-outline-danger-hover-border :@error-color;
+@btn-outline-danger-active-color :#ffffff;
+@btn-outline-danger-active-bg : @error-color;
+@btn-outline-danger-active-border : @error-color;
+@btn-outline-danger-focus-color :@error-color;
+@btn-outline-danger-focus-bg :#ffffff;
+@btn-outline-danger-focus-border :#5B86E5;
+@btn-outline-danger-disabled-color : #fbccce;
+@btn-outline-danger-disabled-bg : #ffffff;
+@btn-outline-danger-disabled-border : #fbccce;
+@btn-outline-danger-pending-color : #fbccce;
+@btn-outline-danger-pending-bg : #ffffff;
+@btn-outline-danger-pending-border : #fbccce;
+
+@btn-success-color: #ffffff;
+@btn-success-bg: @success-color;
+@btn-success-border: @success-color;
+@btn-success-hover-color : #ffffff;
+@btn-success-hover-bg : #2E9960;
+@btn-success-hover-border : #2E9960;
+@btn-success-active-color :#ffffff;
+@btn-success-active-bg : #268050;
+@btn-success-active-border : #268050;
+@btn-success-focus-color :#ffffff;
+@btn-success-focus-bg :#35B26F;
+@btn-success-focus-border :#5B86E5;
+@btn-success-disabled-color : #ffffff;
+@btn-success-disabled-bg : #91F2BE;
+@btn-success-disabled-border : #91F2BE;
+@btn-success-pending-color : #ffffff;
+@btn-success-pending-bg : #91F2BE;
+@btn-success-pending-border : #91F2BE;
+
+@btn-outline-success-color: @success-color;
+@btn-outline-success-bg: #ffffff;
+@btn-outline-success-border: @success-color;
+@btn-outline-success-hover-color : @success-color;
+@btn-outline-success-hover-bg : #C2F2D8;
+@btn-outline-success-hover-border :@success-color;
+@btn-outline-success-active-color :#ffffff;
+@btn-outline-success-active-bg : @success-color;
+@btn-outline-success-active-border : @success-color;
+@btn-outline-success-focus-color :@success-color;
+@btn-outline-success-focus-bg :#ffffff;
+@btn-outline-success-focus-border :#5B86E5;
+@btn-outline-success-disabled-color : #c2e8d4;
+@btn-outline-success-disabled-bg : #ffffff;
+@btn-outline-success-disabled-border : #c2e8d4;
+@btn-outline-success-pending-color : #c2e8d4;
+@btn-outline-success-pending-bg : #ffffff;
+@btn-outline-success-pending-border : #c2e8d4;
+
+
+@btn-warning-color: #ffffff;
+@btn-warning-bg: @warning-color;
+@btn-warning-border: @warning-color;
+@btn-warning-hover-color : #ffffff;
+@btn-warning-hover-bg : #CCAE47;
+@btn-warning-hover-border : #CCAE47;
+@btn-warning-active-color :#ffffff;
+@btn-warning-active-bg : #B3983E;
+@btn-warning-active-border : #B3983E;
+@btn-warning-focus-color :#ffffff;
+@btn-warning-focus-bg :#F2CE54;
+@btn-warning-focus-border :#5B86E5;
+@btn-warning-disabled-color : #ffffff;
+@btn-warning-disabled-bg : #FFE58C;
+@btn-warning-disabled-border : #FFE58C;
+@btn-warning-pending-color : #ffffff;
+@btn-warning-pending-bg : #FFE58C;
+@btn-warning-pending-border : #FFE58C;
+
+
+
+
+@btn-default-color: @text-color;
+@btn-default-bg: @component-background;
+@btn-default-border: @border-color-base;
+
+
+
+@btn-disable-color: #CECECE;
+@btn-disable-bg: #ffffff;
+@btn-disable-border: #E2E2E2;
+
+@heading-color: #252627;
+
+
+// @btn-padding-base: 0 @padding-md - 1px;
+// @btn-font-size-lg: @font-size-lg;
+// @btn-font-size-sm: @font-size-base;
+// @btn-padding-lg: @btn-padding-base;
+// @btn-padding-sm: 0 @padding-xs - 1px;
+
+// @btn-height-base: 32px;
+// @btn-height-lg: 40px;
+// @btn-height-sm: 24px;
+
+// @btn-circle-size: @btn-height-base;
+// @btn-circle-size-lg: @btn-height-lg;
+// @btn-circle-size-sm: @btn-height-sm;
+
+// @btn-square-size: @btn-height-base;
+// @btn-square-size-lg: @btn-height-lg;
+// @btn-square-size-sm: @btn-height-sm;
+
+// @btn-group-border: @primary-5;

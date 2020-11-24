@@ -1,0 +1,36 @@
+.fade-in-enter-active,
+.fade-in-leave-active {
+  transition: opacity 100ms;
+}
+.fade-in-leave-active {
+  transition-duration: 50ms;
+}
+.fade-in-enter, .fade-in-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.zoom-in-enter-active,
+.zoom-in-leave-active {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: zoom-in;
+    overflow: hidden;
+}
+
+.zoom-in-leave-active {
+  animation-duration: 0.2s;
+}
+
+.zoom-in-leave-active {
+    animation-direction: reverse;
+}
+
+@keyframes zoom-in {
+    from {
+        opacity: 0.5;
+        transform: scale3d(0.5, 0.5, 0.5);
+    }
+    100% {
+        opacity: 1;
+    }
+}

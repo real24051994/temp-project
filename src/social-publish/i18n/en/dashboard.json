@@ -1,0 +1,27 @@
+{
+	"title" : {
+		"overview" : "Overview",
+		"chart" : "Published Posts",
+		"insight" : "Posts",
+		"article" : "What’s new?",
+		"guide" : "How to use?",
+		"timeline"  : "Timeline"
+	},
+	"insight" : {
+		"scheduled_post" : "Scheduled Post",
+		"draft_post" : "Draft Post",
+		"running_autopilot" : "Running Autopilot",
+		"error_post"  : "Error Posts",
+		"pause_autopilot" : "Paused Autopilot"
+	},
+	"article" : {
+		"item" : "article(s)"
+	},
+	"btn" : {
+		"view_more" : "View all"
+	},
+	"label"  : {
+		"all_account_option" : "All account",
+		"last_day"  : "Lasted {day} day"
+	}
+}

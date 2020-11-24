@@ -1,0 +1,118 @@
+@mixin img() {
+    max-width: 100%;
+    height: auto;
+}
+
+@mixin center() {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin clear() {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+@mixin col() {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    flex: 1 1 auto;
+    word-break: break-word;
+}
+
+@mixin flex($width) {
+    flex: 0 0 $width;
+    max-width: $width;
+}
+
+@mixin page-title() {
+    font-weight: bold;
+    font-size: 24px;
+    color: $text;
+    font-style: normal;
+}
+
+@function asset($path) {
+    @return url("~@/assets/#{$path}");
+}
+
+@mixin a-button() {
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #252627;
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+
+@mixin fontawesome() {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 400;
+}
+
+@mixin fontawesome-light() {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 300;
+}
+
+@mixin fontawesome-light() {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+}
+
+@mixin normal-box() {
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    color: $white !important;
+    height: 18px;
+    padding: 0 5px;
+    min-width: 32px;
+    text-align: center;
+}
+@mixin line-clamp($line) {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient: vertical;
+	box-orient: vertical;
+	-webkit-line-clamp: $line;
+	-moz-line-clamp: $line;
+	-ms-line-clamp: $line;
+	line-clamp: $line;
+	overflow: hidden;
+}

@@ -1,0 +1,153 @@
+.vue-list-post-table {
+    .item-post {
+        background: #fff;
+        padding: 8px 0px;
+        position: relative;
+        font-size: 14px;
+        &.item-post-disabled {
+            cursor: default;
+            &:hover {
+                background: #fff !important;
+                cursor: default !important;
+            }
+        }
+        &-sort {
+            display: inline-block;
+            color: $text;
+            margin-left: 8px;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        &-error {
+            &-empty {
+                padding: 50px 0;
+                text-align: center;
+                h3 {
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-top: 20px;
+                    font-weight: normal;
+                }
+            }
+            &-not-found {
+                padding: 50px 0;
+                text-align: center;
+                h3 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #4F4F4F;
+                    font-weight: normal;
+                }
+            }
+        }
+        &-loading {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &.item-post-heading {
+            background: #EFEFEF;
+            padding: 0;
+            .item-row {
+                background: transparent;
+                height: 40px;
+                .item-col {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+            .item-post-media {
+                height: auto;
+            }
+        }
+        &-icon {
+            margin-top: 4px;
+            width: 100%;
+            &-type {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 16px;
+                line-height: 18px;
+                color: #CECECE;
+                text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+            }
+            .item-social {
+                margin-left: 8px;
+            }
+        }
+        &-media {
+            position: relative;
+            @include flex(72px);
+            height: 56px;
+            border-radius: 2px;
+            overflow: hidden;
+            img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+            &-image {
+                background: #EFEFEF;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &-link {
+                background: linear-gradient(0deg, #EFEFEF, #EFEFEF);
+            }
+        }
+        &-content {
+            @include flex(calc(100% - 72px));
+            padding-left: 16px;
+            padding-right: 16px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &-message {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            font-size: 14px;
+            line-height: 22px;
+            width: 100%;
+            font-weight: 600;
+        }
+        &-info {
+            display: flex;
+            align-items: center;
+        }
+        &-status {
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 20px;
+            }
+        }
+        &-autopilot-by {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        &-action {
+            text-align: right;
+            .is-disabled {
+                cursor: not-allowed;
+            }
+        }
+    }
+}
+
+.item-post {
+    &-status-popover {
+        color: $danger;
+        font-size: 13px;
+        max-width: 300px;
+    }
+}

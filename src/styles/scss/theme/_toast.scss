@@ -1,0 +1,45 @@
+.toast {
+    &-error {
+        .ant-notification-notice {
+            &-icon {
+                color: $danger;
+            }
+            &-message {
+                color: $danger;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    &-success {
+        .ant-notification-notice {
+            &-icon {
+                color: $success;
+            }
+            &-message {
+                color: $success;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    &-warning {
+        .ant-notification-notice {
+            &-icon {
+                color: $warning;
+            }
+            &-message {
+                color: $warning;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+.ant-notification-notice-with-icon .ant-notification-notice-description {
+    overflow: hidden;
+}

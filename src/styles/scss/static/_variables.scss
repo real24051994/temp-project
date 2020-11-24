@@ -1,0 +1,121 @@
+$primary-color: #5b86e5;
+
+$light-primary1: #ccdcff;
+$light-primary2: #ebf1ff;
+$dark-primary1: #3d6acc;
+$dark-primary2: #3d5a99;
+
+$blue-color: #5b86e5;
+$light-blue1: #ccdcff;
+$light-blue2: #ebf1ff;
+$dark-blue1: #3d6acc;
+$dark-blue2: #3d5a99;
+// $primary-color-hover: #3d6acc;
+// $primary-color-active: #3d5a99;
+// $primary-color-focus: #5b86e5;
+// $primary-color-pending: #ccdcff;
+// $primary-color-border: #3d5a99;
+// $primary-color-light1: #ccdcff;
+// $primary-color-light2: #ebf1ff;
+
+$danger-color: #f2545d;
+$light-danger1: #ff999f;
+$light-danger2: #ffe5e6;
+$dark-danger1: #cc474e;
+$dark-danger2: #b32d34;
+
+$success-color: #35b26f;
+$light-success1: #91f2be;
+$light-success2: #c2f2d8;
+$dark-success1: #2e9960;
+$dark-success2: #268050;
+// $success-color-hover: #2e9960;
+// $success-color-active: #268050;
+// $success-color-focus: #35b26f;
+// $success-color-pending: #35b26f;
+// $success-color-border: #5b86e5;
+// $success-color-light1: #91f2be;
+// $success-color-light2: #c2f2d8;
+
+$warning-color: #f2ce54;
+$light-warning1: #ffe58c;
+$light-warning2: #fff0bf;
+$dark-warning1: #ccae47;
+$dark-warning2: #b3983e;
+// $warning-color-hover: #ccae47;
+// $warning-color-active: #b3983e;
+// $warning-color-focus: #f2ce54;
+// $warning-color-pending: #f2ce54;
+// $warning-color-border: #f2ce54;
+// $warning-color-light1: #ffe58c;
+// $warning-color-light2: #fff0bf;
+
+$text: #252627;
+$border-color: #e2e2e2;
+$border-color2: #eaeaea;
+
+$light-gray1: #cecece;
+$light-gray2: #e2e2e2;
+$light-gray3: #f3f3f3;
+$light-gray4: #fafafa;
+$light-gray5: #fafafa;
+
+$dark-gray1: #252627;
+$dark-gray2: #4f4f4f;
+$dark-gray3: #828282;
+
+$base-color: #ffffff;
+$base-color1: #f7faff;
+
+$separator: #ffffff;
+$body-bg: #f0f2f5;
+
+$white: #ffffff;
+$black: #000000;
+$orange: #f2994a;
+
+$body-font-family: "Inter", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$body-font-size: 14px;
+$body-font-weight: 400;
+$body-background : #F7F8FA;
+$app-auth-bg: #161523;
+$app-sidebar-bg: #ffffff;
+$app-sidebar-border: #f3f3f3;
+$app-sidebar-text-color: #4f4f4f;
+$app-sidebar-text-active-color: $primary-color;
+$app-sidebar-text-bg: transparent;
+$app-sidebar-text-active-bg: #ffffff;
+
+$app-sidebar-width: 64px;
+$app-toolbar-height: 48px;
+$app-toolbar-bg: $primary-color;
+$app-toolbar-active: $primary-color;
+
+$app-footer-height: 48px;
+$app-footer-bg: #ddd;
+$app-content-height: calc(100vh - #{$app-toolbar-height + $app-footer-height});
+$white: #fff;
+$border-form: #cecece;
+$text-steps: $primary-color;
+$app-collapse-breakpoint: 1400px;
+$app-toolbar-breakpoint: 1280px;
+$danger: #f2545d;
+$success: #35b26f;
+$warning: #f2ce54;
+$line-border: #d8d8d8;
+$placeholder-color: #cecece;
+$sub-title-color: #828282;
+
+$instagram: #f00075;
+$facebook: #4267b2;
+$twitter: #1da1f2;
+$shopify: #95bf47;
+
+$theme-colors: (
+  "primary": $primary-color,
+  "danger": $danger-color,
+  "warning": $warning-color,
+  "success": $success-color,
+);

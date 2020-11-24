@@ -1,0 +1,15 @@
+body {
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+	color: $text;
+	background-color: $body-background;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+// #intercom-container iframe.intercom-launcher-frame , .intercom-launcher , .intercom-launcher-badge-frame , .intercom-1emzjh5{
+// 	display: none  !important; 
+// }

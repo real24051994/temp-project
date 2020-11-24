@@ -1,0 +1,35 @@
+.ant-modal-confirm-confirm {
+    padding-bottom: 0;
+    .ant-modal {
+        &-body {
+            padding: 0;
+        }
+    }
+    .ant-modal-confirm {
+        &-body {
+            .anticon {
+                display: none;
+                ;
+            }
+        }
+        &-title {
+            padding: 16px;
+            border-bottom: 1px solid $border-color;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        &-content {
+            padding: 32px 16px;
+            margin: 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        &-btns {
+            margin: 0;
+            padding: 16px;
+            float: none;
+            text-align: right;
+            border-top: 1px solid $border-color;
+        }
+    }
+}

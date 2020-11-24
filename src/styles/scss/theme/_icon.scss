@@ -1,0 +1,26 @@
+.icon-social {
+    &-facebook {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background-image: url("~@/assets/icons/facebook.png");
+        background-size: cover;
+        background-position: center center;
+    }
+    &-instagram {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background-image: url("~@/assets/icons/instagram.png");
+        background-size: cover;
+        background-position: center center;
+    }
+    &-twitter {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background-image: url("~@/assets/icons/twitter.png");
+        background-size: cover;
+        background-position: center center;
+    }
+}

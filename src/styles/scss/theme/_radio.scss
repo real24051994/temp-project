@@ -1,0 +1,10 @@
+.ant-radio-inner{
+	border-color: $dark-gray3;
+}
+.ant-radio-checked .ant-radio-inner{
+	border: 2px solid $primary-color;
+	&::after{
+		top: 2px;
+		left: 2px;
+	}
+}

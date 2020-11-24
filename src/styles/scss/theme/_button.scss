@@ -1,0 +1,25 @@
+.btn {
+    &-bold {
+        font-weight: 500;
+    }
+    &-block {
+        width: 100%;
+        display: block;
+    }
+}
+
+// .ant-btn {
+//     line-height: 32px;
+//     font-weight: 500;
+//     font-family: $body-font-family;
+//     &.ant-btn-danger {
+//         color: $danger;
+//         border-color: $danger;
+//         background: #fff;
+//         &:hover,
+//         &:focus {
+//             color: #fff;
+//             background-color: $danger;
+//         }
+//     }
+// }

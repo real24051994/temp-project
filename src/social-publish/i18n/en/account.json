@@ -1,0 +1,83 @@
+{
+	"title" : {
+		"page_account" : "Social Account",
+		"modal_create" : "Add Social Account"
+	},
+	"btn"  :{
+		"show_modal_create_account" : "Add Account",
+		"close_modal_create" : "Finish",
+		"reconnect" : "Reconnect",
+		"close_modal_reconnect" : "I got it",
+		"connect_facebook_page" : "Connect Pages"
+	},
+	"modal" : {
+		
+	},
+	"label" : {
+		"status" : "Connected"
+	},
+	"social_types" :{
+		"facebook" : "Facebook Page",
+		"twitter" : "Twitter"
+	},
+	"table" : {
+		"account_name" : "Account Name",
+		"account_type" : "Account Type"
+	},
+	"state" :{
+		"empty_connect_facebook" : "No Facebook Page found",
+		"empty" : {
+			"title" : "You have not connect to any Social Account yet",
+			"content" : "Connect to any Social Account to build your branding now"
+		}
+	},
+	"connect_facebook" : {
+		"title" : "You have loged in Facebook account",
+		"description" : "Choose which page you want to connect"
+	},
+	"error" : {
+		"connect_facebook" : "Connected to another account",
+		"reconnect" : {
+			"title" : "This account does not have permission",
+			"content" : "This account don’t have permission to connect to this  <br> Please try another account"
+		}
+	},
+	"toast" : {
+		"delete_account_success" : {
+			"title" : "Done !",
+			"message" : "Delete account success !"
+		},
+		"delete_account_error" : {
+			"title" : "Error",
+			"message" : "Delete account success fail !"
+		},
+		"connect_twitter_success" : {
+			"title" : "Done !",
+			"message" : "Connected Twitter Account !"
+		},
+		"connect_facebook_success" : {
+			"title" : "Done !",
+			"message" : "Connected Facebook Account !"
+		},
+		"connect_facebook_error" : {
+			"title" : "Error !",
+			"message" : "Connected Facebook fail !"
+		}
+	},
+	"dialog" :{
+		"delete_account" : {
+			"title": "Delete Account",
+			"content": "<div class=\"text-content text-left\"><p class=\"m-b-4\">Are you sure you want to delete this account? This action may cause:</p><ul class=\"p-l-16\"><li class=\"m-b-4\">All posts belonging to the account will be removed from our system.</li><li class=\"m-b-4\">The autopilot associated with the account will be paused.</li></ul></div>",
+			"ok_text" : "Delete",
+			"cancel_text" : "Cancel",
+			"checkbox_content" : "Yes, I want to delete account"
+		}
+	},
+	"sidebar" : {
+		"title": "Social Accounts",
+		"view_more" : "Manage Account",
+		"all_account" : "All Accounts",
+		"all_account_collapse" : "All",
+		"limit_twitter_account" :"According to Twitter's announce, it's not allow to simultaneously post identical or substantially similar content to multiple accounts."
+	}
+}

@@ -1,0 +1,24 @@
+.badge{
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 2px 8px;
+	color: $dark-gray3;
+	background-color : $light-gray3;
+	&-info{
+		color: $primary-color;
+		background-color :  $light-blue2;
+	}
+	&-warning{
+		color: $warning-color;
+		background-color : $light-warning2;
+	}
+	&-danger{
+		color: $danger-color;
+		background-color :  $light-danger2;
+	}
+	&-success{
+		color: $success-color;
+		background-color :  $light-success2;
+	}
+}

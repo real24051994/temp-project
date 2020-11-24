@@ -1,0 +1,31 @@
+.vue-setting{
+	
+	.vue-setting{
+		&-error{
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		&-label{
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 32px;
+		}
+		&-row{
+
+		}
+		&-col{
+			padding: 0;
+			&-label{
+				@include flex(130px)
+			}
+			&-content{
+				@include flex(calc(100% - 130px));
+			}
+		}
+	}
+	.ant-select{
+		width: 100%;
+	}
+}

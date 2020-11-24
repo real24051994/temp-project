@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Additional Image Link",
+    "value": "additional_image_links"
+  },
+  {
+    "name": "Age Group",
+    "value": "age_group"
+  },
+  {
+    "name": "Color",
+    "value": "color"
+  },
+  {
+    "name": "Gender",
+    "value": "gender"
+  },
+  {
+    "name": "Material",
+    "value": "material"
+  },
+  {
+    "name": "Pattern",
+    "value": "pattern"
+  },
+  {
+    "name": "Product Type",
+    "value": "product_types"
+  },
+  {
+    "name": "Sale Price",
+    "value": "sale_price"
+  },
+  {
+    "name": "Sale Price Effective Date",
+    "value": "sale_price_effective_date"
+  },
+  {
+    "name": "Shipping",
+    "value": "shipping"
+  },
+  {
+    "name": "Shipping Weight",
+    "value": "shipping_weight"
+  },
+  {
+    "name": "Size",
+    "value": "sizes"
+  },
+  {
+    "name": "Custom Label 0",
+    "value": "custom_label_0"
+  },
+  {
+    "name": "Custom Label 1",
+    "value": "custom_label_1"
+  },
+  {
+    "name": "Custom Label 2",
+    "value": "custom_label_2"
+  },
+  {
+    "name": "Custom Label 3",
+    "value": "custom_label_3"
+  },
+  {
+    "name": "Custom Label 4",
+    "value": "custom_label_4"
+  },
+  {
+    "name": "Promotion Id",
+    "value": "promotion_ids"
+  }
+]

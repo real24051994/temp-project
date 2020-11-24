@@ -1,0 +1,69 @@
+{
+	"table" :{
+		"queue_post" : "Post",
+		"queue_published" : "Day Published",
+		"queue_autopilot" : "Autopilot"
+	},
+	"state" : {
+		"empty" : "No queue found",
+		"empty_preview" : {
+			"title": "Preview",
+			"content" : "Compose a post on the left to preview it on each social network."
+		}
+	},
+	"label" : {
+		"modal_title" : "Edit Queue",
+		"publish_time" : "Publish Time",
+		"time" : "Time"
+	},
+	"btn" : {
+		"delete" : "Delete",
+		"publish" : "Publish Now",
+		"save" : "Save Changes",
+		"apply_timepicker" : "Apply"
+	},
+	"toast" : {
+		"delete_queue_success" :{
+			"title" : "Success",
+			"message": "Delete Queue success !"
+		},
+		"delete_queue_error" :{
+			"title" : "Error",
+			"message": "Delete Queue fail !"
+		},
+		"update_queue_success" :{
+			"title" : "Success",
+			"message": "The queue's saved changes successfully !"
+		},
+		"update_queue_error" :{
+			"title" : "Error",
+			"message": "Update Queue fail !"
+		},
+		"publish_queue_success" :{
+			"title" : "Success",
+			"message": "The queue's published successfully"
+		},
+		"publish_queue_error" :{
+			"title" : "Error",
+			"message": "Publish Queue fail !"
+		}
+	},
+	"dialog" : {
+		"delete_queue" : {
+			"title": "Delete Queue",
+			"content": "Are you sure to delete this queue?",
+			"ok_text" : "Delete",
+			"cancel_text" : "Cancel"
+		},
+		"discard" :{
+			"title" : "Discard Changes",
+			"content" : "The changes won't be saved. Do you want to close this popup?",
+			"ok_text": "Discard",
+			"cancel_text" : "Cancel"
+		}
+	},
+	"placeholder" : {
+		"contenteditable" : "Type something...",
+		"timepicker" : "Select Time"
+	}
+}

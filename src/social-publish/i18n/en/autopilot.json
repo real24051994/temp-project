@@ -1,0 +1,213 @@
+{
+    "title": {
+        "autopilot": "Autopilot",
+		"create_autopilot": "Create Autopilot",
+		"update_autopilot": "Edit Autopilot",
+		"total_record" : "Total <strong>{number}</strong> autopilot | Total <strong>{number}</strong> autopilots"
+    },
+    "btn": {
+		"create_autopilot": "Create Autopilot",
+		"pause_autopilot" : "Pause",
+		"resume_autopilot" : "Resume",
+		"delete_autopilot": "Delete",
+		"add_template" : "Add Template"
+	},
+	"placeholder":{
+		"search" : "Search ..."
+	},
+    "confirm": {
+		"discard" : {
+			"title": "Discard Changes",
+            "content": "The changes won't be saved. Do you want to leave this page?",
+            "btn_ok": "Discard",
+            "btn_cancel": "Cancel"
+		},
+        "delete_autopilot": {
+            "title": "Delete Autopilot",
+            "content": "Do you want to delete this Autopilot?",
+            "btn_ok": "Delete",
+            "btn_cancel": "Cancel"
+		},
+		"pause_autopilot" : {
+			"title": "Pause Autopilot",
+            "content": "Are you sure you want to pause this Autopilot?",
+            "btn_ok": "Pause",
+            "btn_cancel": "Cancel"
+		},
+		"resume_autopilot" : {
+			"title": "Resume Autopilot",
+            "content": "Are you sure you want to resume this Autopilot?",
+            "btn_ok": "Resume",
+            "btn_cancel": "Cancel"
+		}
+	},
+	"table" :{
+		"autopilot_campaign" : "Campaign",
+		"autopilot_status" : "Status",
+		"autopilot_type" : "Type"
+	},
+	"state" : {
+		"empty_autopilot" : "No Autopilot created",
+		"not_found" : "No results found !"
+	},
+	"toast" : {
+		"create_autopilot_success" :{
+			"title" : "Success",
+			"message": "Create Autopilot success !"
+		},
+		"create_autopilot_error" :{
+			"title" : "Error",
+			"message": "Create Autopilot fail !"
+		},
+		"update_autopilot_success" :{
+			"title" : "Success",
+			"message": "Update Autopilot success !"
+		},
+		"update_autopilot_error" :{
+			"title" : "Error",
+			"message": "Update Autopilot fail !"
+		},
+		"pause_autopilot_success" :{
+			"title" : "Success",
+			"message": "Pause Autopilot success !"
+		},
+		"pause_autopilot_error" :{
+			"title" : "Error",
+			"message": "Pause Autopilot fail !"
+		},
+		"resume_autopilot_success" :{
+			"title" : "Success",
+			"message": "Resume Autopilot success !"
+		},
+		"resume_autopilot_error" :{
+			"title" : "Error",
+			"message": "Resume Autopilot fail !"
+		},
+		"delete_autopilot_success" :{
+			"title" : "Success",
+			"message": "Delete Autopilot success !"
+		},
+		"delete_autopilot_error" :{
+			"title" : "Error",
+			"message": "Delete Autopilot fail !"
+		},
+		"require_social" : {
+			"title" : "Error !",
+			"content" : "There is no selected social account."
+		}
+	},
+	"validate" : {
+		"require_template" : "The template can not be blank. Please fill your content or simply select our idea template",
+		"require_discount_template" : "No template chosen. Please choose a template to edit discount information.",
+		"require_name" : "The name can not be blank. Please name your autopilot.",
+		"require_image_logo" : "No image chosen. Please choose an image to create a logo.",
+		"require_collection" : "The collections are not selected. Please select the collections or all products for your autopilot",
+		"require_time" : "No time slots are added. Please pick up the time that you want us to send your posts",
+		"require_date" : "No date are selected. Please select the date that you want us to send your posts"
+	},
+	"form" : {
+		"label" : {
+			"autopilot_name" : "Autopilot name",
+			"content" : "Content",
+			"template" :"Add Template",
+			"discount" : "Creating Discount",
+			"discount_percentage" : "Discount Percentage",
+			"valid_time" : "Valid Time",
+			"discount_position" : "Position",
+			"discount_size" : "Tag Size",
+			"discount_margin" : "Margin",
+			"discount_content" : "Tag Content",
+			"logo_position" : "Position",
+			"logo_size" : "Logo Size",
+			"logo_margin" : "Margin",
+			"logo_Transparent" : "Transparent",
+			"product" : "Product",
+			"share_type" : "Show product as:",
+			"product_collection" : "Product Collections",
+			"review_setting" : "Review Settings",
+			"review_rating" : "Rating Option",
+			"review_edit" : "Edit review",
+			"review_share": "Share review",
+			"scheduled" : "Scheduled",
+			"schedule_time_interval" : "Time Interval:",
+			"schedule_timezone" : "Timezone Setting",
+			"schedule_publish_time" : "Publish time",
+			"setting" : "Setting",
+			"time_picker" : "Add Time",
+			"time_picker_label" : "Time",
+			"preview_product" : "Preview Product"
+		},	
+		"btn" : {
+			"add_variant" : "Add Variant",
+			"add_discount_template" : "Choose Template",
+			"upload_file" : "Upload File",
+			"select_collection" : "Select Collection",
+			"cancel_modal_collection" : "Cancel",
+			"apply_modal_collection" : "Apply",
+			"remove_collection" : "Delete",
+			"add_publish_time" : "Add Time",
+			"view_other_product" : "View Other Product",
+			"cancel_modal_pick_time" : "Cancel",
+			"apply_modal_pick_time" : "Apply"
+		},
+		"option" : {
+			"all_product" : "All Products",
+			"collection" : "Specific Collection",
+			"link" : "Link",
+			"image" :  "Image"
+		},
+		"switch" : {
+			"enable_create_discount" : "Enable Auto Creating Discount",
+			"enable_discount_tag" : "Enable Discount tag on Image",
+			"enable_logo" : "Enable logo on image",
+			"update_enable" : "The interval needed to push the next review on social media is: [xx] minutes ",
+			"review_priority" : "Choose which image type you want to publish",
+			"allow_repeat" : "Repeating the autopilot when all selected products have been posted once",
+			"allow_rotate" : "Using the other images of the posted product for the reposting."
+		},
+		"popover" : {
+			"content" : "<strong>Our friendly bot (Autopilot)</strong> can generate your post content dynamically as much as you want with our following variants:",
+			"discount" : "Generate a time-limited discount code on Shopify for each post published automatically",
+			"discount_tag" : "This setting is only available when showing the product as image.",
+			"review_time_interval" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi optio dicta obcaecati sequi. Nemo, expedita quis. Animi mollitia quis placeat minima, iusto tempora obcaecati maxime accusantium ullam aperiam suscipit at?",
+			"variants" : {
+				"STORE_URL" : "Generate a direct link to the product's shop.",
+				"PRODUCT_URL" : "Generate a direct link to the product page.",
+				"PRODUCT_TITLE" : "The product title",
+				"VENDOR_NAME" : "The product's vendor name.",
+				"LOWEST_PRICE" : "A product could have many variants with different prices. This replace the lowest prices with currency.",
+				"PRODUCT_TAGS" : "the tag of your product on Shopify",
+				"DISCOUNT_CODE" : "the discount code",
+				"DISCOUNT_PERCENTAGE" : "the discount percentage",
+				"VALID_TIME" : "the time that the discount program lasts",
+				"REVIEW_RATING_ICON" : "a picture of star that you got from the review",
+				"REVIEW_RATING" : "a number of star that you got from the review",
+				"REVIEWER_NAME" : "name of reviewer",
+				"REVIEW_BODY" : "a review's content",
+				"COUNTRY_REVIEWER" : "reviewer's country"
+			}
+		},
+		"placeholder" :{
+			"add_content" : "add content",
+			"search_collection" : "Search..."
+		},
+		"state": {
+			"empty_template" : "No templates found !",
+			"empty_collection" : "Collection not found",
+			"no_selected_collection" : "No collections selected",
+			"empty_product_preview" : "No product for preview"
+		},
+		"content" : {
+			"template_content" : "Content Template",
+			"discount_description" : "New variants for discount information are available in content template",
+			"review_time_interval" : "The interval needed to push the next review on social media is",
+			"facebook_time_warning" : "Your Facebook page could be blocked by Facebook due to publishing posts abusively. If you have a few of followers (less than 100 followers), please don't publish more than 1 post daily.",
+			"latest_warning" : {
+				"title" : "Auto promote all your latest products",
+				"description" : "Publishing only latest product added in your store.",
+				"link" : "How can it help?"
+			}
+		}
+	}
+	
+}
