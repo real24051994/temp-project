@@ -45,8 +45,6 @@ var AntComponents = [Collapse]
 AntComponents.forEach((item) => {
   Vue.use(item)
 })
-import userpilot from './utils/userpilot'
-Vue.prototype.$userpilot = new userpilot()
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.component('sh-icon', FontAwesomeIcon)
