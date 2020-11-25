@@ -16,37 +16,9 @@ const router = new Router({
 if (process.env.NODE_ENV == 'development') {
 	router.addRoutes(doc)
 }
-const startProgress = function() {
-	if( typeof NProgress  == 'object' ){
-		if( NProgress.status == null  ){
-			NProgress.start()
-		}
-	}
-}
-const doneProgress = function() {
-	if( typeof NProgress  == 'object' ){
-		if( NProgress.status != null  ){
-			NProgress.done()
-		}
-	}
-}
+
 router.beforeEach(async (to, from, next) => {
-	startProgress()
-	if (process.env.VUE_APP_MAINTAINCE == 1 && !store.getters.getMaintaincePageAllowed) {
-		if (to.name == 'Maintaince') {
-			doneProgress()
-			return next(store.commit('setRouterLoading', false))
-		} else {
-			return next({ name: 'Maintaince' })
-		}
-	} else {
-		if (to.name == 'Maintaince') {
-			return next('/')
-		}
-	}
-
 	store.commit('setRouterLoading', true)
-
 	if (to.meta.middleware) {
 		const middleware = to.meta.middleware
 		const context = { next, from, to, router, store }
@@ -58,12 +30,7 @@ router.beforeEach(async (to, from, next) => {
 				break
 			}
 		}
-		if (preventNext) {
-			doneProgress()
-			return
-		}
 	}
-	doneProgress()
 	return next(store.commit('setRouterLoading', false))
 })
 

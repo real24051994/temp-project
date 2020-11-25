@@ -1,7 +1,7 @@
 <template>
 	<div class="vue-error-page social-head-error-page"  :data-app-name="app_name" :data-error-type="type">
 		<template v-if="type == '404'">
-			<img src="@publish/assets/error/404.png" alt="">
+			<img src="@/assets/404.png" alt="">
 			<h1>We think you’re lost!</h1>
 			<p>You can choose to stay, but we recommend to go back home</p>
 			<router-link to="/" class="ant-btn ant-btn-primary">
@@ -9,7 +9,7 @@
 			</router-link>
 		</template>
 		<template v-else-if="type == '500'">
-			<img src="@publish/assets/icons/error-500.svg" alt />
+			<img src="@/assets/error-500.svg" alt />
 			<h3 class="m-t-20" style="font-size: 22px">Can not load this page</h3>
 			<p>Please reload Page</p>
 		</template>

@@ -240,39 +240,36 @@ export default {
   async mounted() {
     this.is_loading = false
     this.is_loading_error = false
-    if (!this.is_loading_error) {
-      if (this.user) {
-        if (this.chat_box_data) {
-          this.$crisp.init({
-            token: this.chat_box_token,
-            data: this.chat_box_data,
-          })
-        }
-        this.$userpilot.init({ app_id: '32sm45e10' }).then(() => {
-          this.$userpilot.register({
-            id: `ss_${this.user.shop.id}`,
-            data: {
-              app_name: 'Socialshop',
-              name: this.user.shop.name,
-              email: this.user.shop.email,
-              created_at: this.user.shop.created_at,
-            },
-          })
-          this.$watch('$route', () => {
-            this.$userpilot.reload()
-          })
-        })
-        this.dataLayer({
-          userId: this.user ? this.user.id : 'unknown',
-        })
-      }
-      if( !this.getAuthSetupInfo ){
-        this.fetchAuthSetupInfo({responseInfo :true})
-      }
-    }
-  },
-  beforeDestroy() {
-    this.$userpilot.anonymous()
+    // if (!this.is_loading_error) {
+    //   if (this.user) {
+    //     if (this.chat_box_data) {
+    //       this.$crisp.init({
+    //         token: this.chat_box_token,
+    //         data: this.chat_box_data,
+    //       })
+    //     }
+    //     this.$userpilot.init({ app_id: '32sm45e10' }).then(() => {
+    //       this.$userpilot.register({
+    //         id: `ss_${this.user.shop.id}`,
+    //         data: {
+    //           app_name: 'Socialshop',
+    //           name: this.user.shop.name,
+    //           email: this.user.shop.email,
+    //           created_at: this.user.shop.created_at,
+    //         },
+    //       })
+    //       this.$watch('$route', () => {
+    //         this.$userpilot.reload()
+    //       })
+    //     })
+    //     this.dataLayer({
+    //       userId: this.user ? this.user.id : 'unknown',
+    //     })
+    //   }
+    //   if( !this.getAuthSetupInfo ){
+    //     this.fetchAuthSetupInfo({responseInfo :true})
+    //   }
+    // }
   },
 }
 </script>
