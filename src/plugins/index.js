@@ -2,7 +2,6 @@ import Vue from 'vue'
 import helper from './helper'
 import './mixins'
 import './filter'
-import './directives'
 import './components'
 import axios from '@/plugins/axios'
 Vue.prototype.$helper = helper

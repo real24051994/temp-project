@@ -2,7 +2,6 @@ import auth from '@shop/middlewares/auth'
 import register from '@shop/middlewares/register'
 import autoLogin from '@shop/middlewares/autoLogin'
 import upgrade from '@shop/middlewares/upgrade'
-import checkMapping from '@shop/middlewares/checkMapping'
 import install from '@shop/middlewares/install'
 import noInstall from '@shop/middlewares/noInstall'
 
@@ -76,15 +75,6 @@ export default [
                 },
                 component: () => import(/* webpackChunkName: "dashboard" */ '../auth/views/install.vue'),
             },
-            {
-                path: 'feed/google/welcome',
-                name: 'CheckMapping',
-                meta: {
-                    layout: 'light',
-                    middleware: [auth, install, upgrade, register],
-                },
-                component: () => import(/* webpackChunkName: "dashboard" */ './views/check-mapping.vue'),
-            }
         ],
     },
 ]

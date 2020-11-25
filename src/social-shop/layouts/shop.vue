@@ -122,54 +122,13 @@ export default {
                 id: 'vue-sidebar-feed-center',
                 icon: 'tag',
               },
-              {
-                title: 'Product Sources',
-                route: 'ProductSources',
-                type: 'router-link',
-                id: 'vue-sidebar-product-sources',
-                icon: 'product',
-              },
-              {
-                title: 'Sources Setting',
-                route: 'SourceSetting',
-                type: 'router-link',
-                id: 'vue-sidebar-source-setting',
-                icon: 'store',
-              }
-              // {
-              // 	title : 'General Settings',
-              // 	route : 'GoogleMerchant',
-              // 	type : 'router-link',
-              // 	id : 'vue-sidebar-google-merchant',
-              // 	icon : '<i class="fa fa-list-alt"></i>'
-              // },
-              // {
-              // 	title : 'Google Promotion',
-              // 	route : 'GooglePromotion',
-              // 	type : 'router-link',
-              // 	id : 'vue-sidebar-google-promotion',
-              // 	icon : '<i class="fab fa-google"></i>'
-              // },
             ],
           },
-          // {
-          //   items: [
-          //     {
-          //       title: 'Help Center',
-          //       type: 'link',
-          //       href: 'https://help.socialhead.io/en/',
-          //       id: 'vue-sidebar-helper-center',
-          //       icon: icon(faLifeRing).html[0],
-          //     },
-          //   ],
-          // },
         ],
         modules: {
           FeedCenter: ['FeedCenter','CreateFeed', 'FeedDetail', 'FeedDetailMapping', 'FeedDetailCategory'],
           GooglePromotion: ['GooglePromotion'],
           GoogleMerchant: ['GoogleMerchant'],
-          ProductSources: ['ProductSources', 'ProductSourcesMapping', 'ProductSourcesFilter', 'ProductSourcesSettings', 'ProductSourcesSecondarySource'],
-          SourceSetting: ['SourceSetting' ,'SourceMapping'],
         },
       },
       
@@ -201,13 +160,6 @@ export default {
     handleCancel(e) {
       this.closeBoxUpdate()
     },
-    // closeBoxUpdate() {
-    //   this.visible = false
-    //   this.accessPermission()
-    //     .then((res) => {})
-    //     .catch((err) => {})
-    //     .finally(() => {})
-    // },
     submitPermission() {
       this.btnLoading = true
       this.accessPermission()
@@ -223,13 +175,6 @@ export default {
           this.btnLoading = false
         })
     },
-    // displayAsCondition(item) {
-    //   if (item.hasOwnProperty('is_permission')) {
-    //     return false
-    //   } else {
-    //     return true
-    //   }
-    // },
     displayAsVersion() {
       if (this.user && this.user.shop.app_version !== process.env.VUE_APP_SOCIAL_SHOP_APP_VERSION) {
         return true
